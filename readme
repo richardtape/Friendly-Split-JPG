@@ -1,0 +1,7 @@
+Very, very simple PHP function which splits an image into a set of parts and then uploads it to the WordPress Uploads directory.
+
+Usage:
+
+<?php $image_bits = friendly_wp_split_image( "image/dummy.jpg", 160, 160 ); ?>
+
+You now have an array of image parts stored in $image_bits.
